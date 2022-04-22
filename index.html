@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,200;0,300;1,700&family=Roboto+Serif:ital,wght@0,100;1,200&family=Titillium+Web:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+ 
+ 
+ <div class="container">
+    <header>
+        <h1>Programa Pizzaria</h1>
+      
+         </header>
+    <section>
+        <!--Adicionar uma nova pizza-->
+        <div id="app">
+            <div id="app2">
+                <label for="" id="label">Digite um sabor a ser adicionado</label>
+                <input type="text" id="por" placeholder="Digite...">
+                <button id="Adicionar">Adicionar</button>
+                <p id="naopode"></p>
+            </div>
+             <!--checbox das pizzas que foram vendidas-->
+            <ul id="ul">
+                <label id="label2">Selecione a pizza que foi vendida</label>
+               <li><input type="radio" name="pizzas" id="mussarela">
+               <label for="">musssarela</label></li>
+               
+               <li ><input type="radio" name="pizzas" id="mistas">
+               <label for="">mistas</label></li>
+               <li ><input type="radio" name="pizzas" id="calabresa">
+               <label for="">calabresa</label></li>
+            </ul>
+        </div>
+    </section>
+    <!--Venda e estorno-->
+    <section id="botoes">
+        <button id="vendas">Venda</button>
+        <button id="estorno">estorno</button>
+    </section>
+   <!--Tabelas-->
+    <section id="table">
+        <table id="tableUse">
+            <tr>
+                <th>sabores</th>
+                <th>quantidade</th>
+                <th>Valores</th>
+            </tr>
+            <tr>
+                <td>Mussarela</td>
+                <td id="resultadoMussarela"></td>
+                <td id="vendasMussarela"></td>
+            </tr>
+            <tr>
+               <td>Mista</td>
+               <td id="resultadoMista"></td>
+               <td id="vendasMistas"></td>
+           </tr>
+           <tr>
+               <td>Calabresa</td>
+               <td id="resultadoCalabresa"></td>
+               <td id="vendasCalabresa"></td>
+           </tr>
+        </table>
+    </section>
+    <!--Criação das planilhas-->
+    <section>
+        <button id="export">Criar planilha</button>
+    </section>
+ </div>
+<script src="tableToExcel (2).js"></script>
+<script src="script.js"></script>    
+</body>
+</html>

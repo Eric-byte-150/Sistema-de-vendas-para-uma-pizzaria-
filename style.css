@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(to right, rgba(41, 170, 36, 0.87), rgb(9, 255, 0));
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 241, 241);
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+   
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 400px;
+    height: 20px;
+}
+li{
+    list-style-type: none;
+}
+#vendas,#estorno{
+    width: 100px;
+   
+    margin: 7px;
+    border-image: none;
+    border-style: none;
+    height: 25px;
+    border-radius: 4px;
+}
+#vendas{
+    background-color: rgb(0, 255, 42);
+    color: white;
+    cursor: pointer;
+    
+}
+#vendas:hover{
+    background-color: green;
+}
+#estorno{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#botoes{
+    display: flex;
+    flex-direction: row;
+}
+#export{
+    width: 250px;
+   
+    margin: 7px;
+    border-image: none;
+    border-style: none;
+    height: 25px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+h3{
+    font-size: 25px;
+    color: green;
+    font-family: 'Noto Sans', sans-serif
+}
+h1{
+    font-size: 55px;
+    font-family: 'Noto Sans', sans-serif;
+    color: green;
+}
+
+#label2{
+    font-size: 25px;
+    color: green;
+}
+label{
+    font-size:larger;
+}
+input[type='radio']{
+    width: 20px;
+}
+#Adicionar{
+    width: 200px;
+    align-self: center;
+    cursor: pointer;
+    margin: 7px;
+    border-image: none;
+    border-style: none;
+    height: 25px;
+    border-radius: 3px;
+    border-radius: 10px;
+    background-color: green;
+   
+    color: white;
+}
+#Adicionar:hover{
+    background-color: rgb(18, 155, 18);
+    transition: 0.2s;
+}
+#app2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#label{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: green;
+}
+input[type='text']{
+    width: 200px;
+    background-color:  rgb(240, 241, 241);
+    border-image: none;
+    border-style: none;
+    border: 1px solid rgb(0, 0, 0);
+}
